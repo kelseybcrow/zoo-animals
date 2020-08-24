@@ -1,10 +1,10 @@
-export class ZooCategories {
+export class ZooDiet {
     constructor() {
         this.herbavores = []
         this.carnivores = []
         this.omnivores = []
     }
     addCarnivores(arr) {
-        arr.forEach(c => this.carnivores.push(c))
+        arr.forEach(carnivore => this.carnivores.push(carnivore))
         }
     }

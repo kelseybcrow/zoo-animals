@@ -1,4 +1,4 @@
-class Goat {
+class Iguana {
     constructor(
         name = '',
         color = '',
@@ -9,8 +9,8 @@ class Goat {
         this.diet = diet;
     }
     eat(diet) {
-        console.log(`${this.name} the Goat eats ${this.diet}.`)
+        console.log(`${this.name} the Iguana eats ${this.diet}.`)
     }
 }
 
-export default Goat;
+export default Iguana;
